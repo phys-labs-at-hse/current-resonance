@@ -1,6 +1,6 @@
 # Capacitor 1, phase-frequency characteristics
 frequency (kHz), phase difference (us)
-40, 2.9 * 2
+40, 5.8
 42, 5.4
 44, 5
 46, 4.6
@@ -10,7 +10,7 @@ frequency (kHz), phase difference (us)
 51.2, 1.6
 51.4, 1.2
 51.6, 0.5
-52, 1.4 * 0.5
+52, 0.7
 55, 3.9
 58, 4
 60, 4
