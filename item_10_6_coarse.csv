@@ -1,0 +1,10 @@
+# Capacitor 6, phase-frequency characteristics
+frequency (kHz), phase difference (us)
+5,  38
+10, 21
+20, 7.2
+30, 8
+40, 6.2
+50, 5
+60, 4
+70, 3.8
