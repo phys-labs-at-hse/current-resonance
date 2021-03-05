@@ -11,10 +11,13 @@ paths = (
 
 for path in paths:
     freq, time_diff = map(np.array, lab.read_csv(path))
-    phase_diff = time_diff / (1 / freq)
+    freq *= 1e3  # convert from kHz to Hz
+    time_diff *= 1e-6  # convert from us to seconds
+    #phase_diff = 2 * np.pi * time_diff / (1 / freq)
+    phase_diff = 2 * np.pi * time_diff / (1 / freq)
 
     plt.close()
-    plt.scatter(freq, time_diff)
+    plt.scatter(freq, phase_diff)
     plt.xlabel('Частота, кГц')
     plt.ylabel('Разность фаз, рад')
     plt.grid()
